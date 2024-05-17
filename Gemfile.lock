@@ -106,9 +106,10 @@ GEM
       http-cookie (>= 1.0.2, < 2.0)
       mime-types (>= 1.16, < 4.0)
       netrc (~> 0.8)
-    rexml (3.2.5)
+    rexml (3.2.8)
+      strscan (>= 3.0.9)
     rouge (4.1.2)
-    rss (0.2.9)
+    rss (0.3.0)
       rexml
     ruby-ll (2.1.2)
       ansi
@@ -118,6 +119,7 @@ GEM
     sassc (2.4.0)
       ffi (~> 1.9)
     shellany (0.0.1)
+    strscan (3.1.0)
     temple (0.10.0)
     thor (1.2.1)
     tilt (2.0.11)
@@ -142,7 +144,7 @@ DEPENDENCIES
   liquid (~> 5.4.0)
   naturally (~> 2.2.1)
   rouge
-  rss
+  rss (>= 0.3.0)
   rubyzip (~> 2.3.2)
   sassc
   webrick (~> 1.8.1)
